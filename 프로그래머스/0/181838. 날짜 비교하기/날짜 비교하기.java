@@ -3,11 +3,11 @@ class Solution {
         int answer = 0;
         for(int i = 0; i < 3; i++){            
             if(date1[i] < date2[i]){
-                return 1; 
+                return answer = 1; 
             } else if(date1[i] > date2[i]){
-                return 0; 
+               return answer = 0;
             }
         }
-        return 0; 
+        return answer = 0;
     }
 }
