@@ -7,7 +7,6 @@ class Solution {
         for (String s : myArray) {
           answer[index] = s.length();
           index++;
-            System.out.println(s);
         }
         return answer;
     }
