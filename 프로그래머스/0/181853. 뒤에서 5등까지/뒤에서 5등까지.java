@@ -11,8 +11,7 @@ class Solution {
       }       
     }
         
-    answer = new int[5];
-        
+    answer = new int[5];        
     for(int i = 0; i < 5; i++){
         answer[i] = num_list[i];
     }
