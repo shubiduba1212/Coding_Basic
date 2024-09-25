@@ -11,8 +11,6 @@ class Solution {
             if(i % m == (m - 1)){
                 idx = 0;         
                 arr_combined[idx_column] = arr_row[(c - 1)];
-                // System.out.println("arr_combined[" + idx_column + "] : ");
-                // System.out.println(arr_combined[idx_column]);
                 idx_column++;
             }else{                
                 idx++;
