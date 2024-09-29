@@ -7,7 +7,6 @@ class Solution {
         System.out.println(my_string.indexOf(toBeReplaced));
         System.out.println(my_string.lastIndexOf(toBeReplaced));
         if(my_string.indexOf(toBeReplaced) != s){
-            System.out.println(my_string.substring(0, s));
             if(arr2.length == (s + 1)){
                 answer = my_string.substring(0, s).concat(overwrite_string);
             }else{
