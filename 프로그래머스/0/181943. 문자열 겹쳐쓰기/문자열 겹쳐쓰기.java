@@ -4,7 +4,6 @@ class Solution {
         char[] arr = overwrite_string.toCharArray();
         char[] arr2 = my_string.toCharArray();
         String toBeReplaced = my_string.substring(s, (arr.length + s));
-        System.out.println(my_string.indexOf(toBeReplaced));
         System.out.println(my_string.lastIndexOf(toBeReplaced));
         if(my_string.indexOf(toBeReplaced) != s){
             if(arr2.length == (s + 1)){
