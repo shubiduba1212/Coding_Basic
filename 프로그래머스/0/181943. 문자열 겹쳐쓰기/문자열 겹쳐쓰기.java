@@ -9,7 +9,6 @@ class Solution {
             if(arr2.length == (s + 1)){
                 answer = my_string.substring(0, s).concat(overwrite_string);
             }else{
-                System.out.println(my_string.substring(arr.length + s));
                 answer = my_string.substring(0, s).concat(overwrite_string).concat(my_string.substring(arr.length + s));
             }
         }else{
