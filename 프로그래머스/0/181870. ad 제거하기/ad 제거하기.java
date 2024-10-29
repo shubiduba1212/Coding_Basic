@@ -9,7 +9,6 @@ class Solution {
             }else{
                 length++;
             }
-            System.out.println(strArr[i]);
         }
         
         answer = new String[length];
