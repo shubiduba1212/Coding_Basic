@@ -5,7 +5,6 @@ class Solution {
             for(int j = 0; j < board[i].length; j++){
                 if((i+j) <= k){
                     System.out.println("i : "+i);
-                    System.out.println("j : "+j);
                     answer += board[i][j];
                 }
             }
