@@ -27,7 +27,6 @@ public class Solution {
             }else{
                 compareChar = Character.toUpperCase(compareChar); // 소문자라면, 대문자로 변환 후 할당
             }
-            System.out.print(compareChar); 출력
         }
     }
 }
