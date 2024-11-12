@@ -25,7 +25,7 @@ public class Solution {
             if(Character.isUpperCase(compareChar)){ // 해당 char타입 변수의 대문자 여부 확인
                 compareChar = Character.toLowerCase(compareChar); // 대문자라면 소문자로 변환 후 할당
             }else{
-                compareChar = Character.toUpperCase(compareChar); // 소문자라면, 대문자로 변환 후 할당
+                compareChar = Character.toUpperCase(compareChar);
             }
         }
     }
