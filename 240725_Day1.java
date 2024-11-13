@@ -19,7 +19,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
-        char[] arr = a.toCharArray(); // char타입의 배열로 변환
+        char[] arr = a.toCharArray(); 
         for(int i = 0; i < arr.length; i++){ 
             char compareChar = arr[i]; 
             if(Character.isUpperCase(compareChar)){ 
