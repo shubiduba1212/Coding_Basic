@@ -23,7 +23,7 @@ public class Solution {
         for(int i = 0; i < arr.length; i++){ // 배열의 길이만큼 반복
             char compareChar = arr[i]; // char타입 변수에 배열의 해당 index값 할당 
             if(Character.isUpperCase(compareChar)){ // 해당 char타입 변수의 대문자 여부 확인
-                compareChar = Character.toLowerCase(compareChar); // 대문자라면 소문자로 변환 후 할당
+                compareChar = Character.toLowerCase(compareChar);
             }else{
                 compareChar = Character.toUpperCase(compareChar);
             }
