@@ -21,7 +21,7 @@ public class Solution {
         String a = sc.next();
         char[] arr = a.toCharArray(); // char타입의 배열로 변환
         for(int i = 0; i < arr.length; i++){ // 배열의 길이만큼 반복
-            char compareChar = arr[i]; // char타입 변수에 배열의 해당 index값 할당 
+            char compareChar = arr[i]; 
             if(Character.isUpperCase(compareChar)){ 
                 compareChar = Character.toLowerCase(compareChar);
             }else{
