@@ -20,7 +20,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
         char[] arr = a.toCharArray(); // char타입의 배열로 변환
-        for(int i = 0; i < arr.length; i++){ // 배열의 길이만큼 반복
+        for(int i = 0; i < arr.length; i++){ 
             char compareChar = arr[i]; 
             if(Character.isUpperCase(compareChar)){ 
                 compareChar = Character.toLowerCase(compareChar);
