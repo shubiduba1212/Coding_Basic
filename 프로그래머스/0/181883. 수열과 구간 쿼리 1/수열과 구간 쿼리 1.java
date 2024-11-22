@@ -10,7 +10,6 @@ class Solution {
             
             for(int j = start; j <= end; j++){
                 arr[j] = arr[j]+1;
-                //System.out.println("arr["+j+"] : "+arr[j]);
             }            
             
         }
