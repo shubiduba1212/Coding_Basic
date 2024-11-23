@@ -6,7 +6,6 @@ class Solution {
             int start = queries[i][0];
             int end = queries[i][1];
             //System.out.println("start : "+start);
-            //System.out.println("end : "+end);
             
             for(int j = start; j <= end; j++){
                 arr[j] = arr[j]+1;
