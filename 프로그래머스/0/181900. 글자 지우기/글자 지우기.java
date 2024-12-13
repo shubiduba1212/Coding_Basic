@@ -5,7 +5,6 @@ class Solution {
         
         for(int i = 0; i < indices.length; i++){        
             myArray[indices[i]] = 'A';
-            System.out.println(String.valueOf(myArray).replaceAll("A",""));
         }
         return answer = String.valueOf(myArray).replaceAll("A","");
     }
