@@ -10,8 +10,6 @@
 // String, Character, Integer 등은 참조 타입으로, 힙 메모리에 객체를 저장하고 해당 객체를 참조하는 참조값을 스택에 저장한다. 
 // 이 객체들은 메서드와 필드를 가지며, 이를 통해 다양한 동작을 수행할 수 있다. 
 // Character.isUpperCase(char c)와 같은 메서드는 Character 클래스의 정적 메서드로, 기본 데이터 타입인 char를 매개변수로 받아 그 문자가 대문자인지 확인한다.
-// *char와 관련된 유틸리티 메서드를 제공
-
 
 import java.util.Scanner;
 
