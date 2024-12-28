@@ -7,7 +7,6 @@ class Solution {
                 int[] tempArr = new int[query[i] + 1];
                 for(int j = 0; j < tempArr.length; j++){
                     tempArr[j] = arr[j];
-                    // System.out.println(tempArr[j]);
                 }
                 arr = tempArr;
             }else{ // 홀수 인덱스라면
