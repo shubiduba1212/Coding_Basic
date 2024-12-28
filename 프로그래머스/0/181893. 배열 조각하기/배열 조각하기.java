@@ -9,7 +9,7 @@ class Solution {
                     tempArr[j] = arr[j];
                 }
                 arr = tempArr;
-            }else{ // 홀수 인덱스라면
+            }else{ 
                 int[] tempArr = new int[arr.length - query[i]];
                 startIdx = query[i];
                 for(int j = 0; j < tempArr.length; j++){
