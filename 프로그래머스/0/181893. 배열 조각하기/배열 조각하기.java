@@ -14,7 +14,6 @@ class Solution {
                 startIdx = query[i];
                 for(int j = 0; j < tempArr.length; j++){
                     tempArr[j] = arr[j + query[i]];
-                    // System.out.println(tempArr[j]);
                 }
                 arr = tempArr;
             }
