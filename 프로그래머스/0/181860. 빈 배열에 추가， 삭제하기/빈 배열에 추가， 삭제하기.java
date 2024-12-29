@@ -18,8 +18,7 @@ class Solution {
                     for(int j = length; j < length + (arr[i] * 2); j++){
                         int addedNum = arr[i];
                         tempArr[j] = addedNum; 
-                    }
-                    
+                    }                    
                 }
                 length += (arr[i] * 2);
                 answer = tempArr;
