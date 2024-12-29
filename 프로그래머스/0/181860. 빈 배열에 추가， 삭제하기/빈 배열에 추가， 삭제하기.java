@@ -10,12 +10,10 @@ class Solution {
                     int addedNum = arr[i];
                     for(int j = 0; j < length + (arr[i] * 2); j++){
                         tempArr[j] = addedNum; 
-                        System.out.println(tempArr[j]);
                     }
                 }else{
                     for(int j = 0; j < length; j++){
                         tempArr[j] = answer[j]; 
-                        System.out.println(tempArr[j]);
                     }
                     for(int j = length; j < length + (arr[i] * 2); j++){
                         int addedNum = arr[i];
