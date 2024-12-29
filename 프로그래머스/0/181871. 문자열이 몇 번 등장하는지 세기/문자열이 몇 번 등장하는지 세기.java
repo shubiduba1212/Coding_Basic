@@ -7,8 +7,7 @@ class Solution {
         for(int i = 0; i <= strArr.length - patArr.length; i++){            
             if(strArr[i] == patArr[0]){
                 boolean check = true;
-                for(int j = 0; j < patArr.length; j++){ 
-                    
+                for(int j = 0; j < patArr.length; j++){                     
                     if(strArr[i + j] != patArr[j]){
                         check = false;
                         break;
