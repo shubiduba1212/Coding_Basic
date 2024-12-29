@@ -12,14 +12,12 @@ class Solution {
                         check = false;
                         break;
                     }
-                    System.out.println(strArr[i + j]);
                     check = true;
                 }
                 
                 if(check){
                     sameCount++;
-                }
-                
+                }                
             }
         }
         return answer = sameCount;
