@@ -28,7 +28,6 @@ class Solution {
                 int[] tempArr = new int[length];
                 for(int j = 0; j < length; j++){
                     tempArr[j] = answer[j]; 
-                    System.out.println(tempArr[j]);
                 }                
                 answer = tempArr;
             }
