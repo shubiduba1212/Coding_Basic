@@ -2,8 +2,6 @@ class Solution {
     public int[] solution(int[] arr) {
         int[] answer = {};
         int arrLength = arr.length;
-        //System.out.println(arrLength);
-            
         int length = 1;
         
         while(length < arrLength){
