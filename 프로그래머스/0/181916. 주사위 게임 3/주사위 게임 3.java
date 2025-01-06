@@ -52,9 +52,7 @@ class Solution {
                 int r = b;
                 answer = q * r;
             }
-        }
-        // 네 숫자가 모두 다른 경우
-        else {
+        } else { // 네 숫자가 모두 다른 경우
             int minValue = dice[0];
             for (int i = 1; i < dice.length; i++) {
                 if (dice[i] < minValue) {
