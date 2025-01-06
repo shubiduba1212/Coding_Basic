@@ -9,7 +9,7 @@ class Solution {
         } else if ((a == b && b == c) || 
                  (a == b && b == d) || 
                  (a == c && c == d) || 
-                 (b == c && c == d)) {
+                 (b == c && c == d)) { // 세 숫자가 같고 하나가 다른 경우
             p = (a == b && b == c) ? a : (a == b && b == d) ? a : 
                 (a == c && c == d) ? a : b;
             q = (a == b && b == c) ? d : (a == b && b == d) ? c : 
