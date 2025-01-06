@@ -15,11 +15,9 @@ class Solution {
             q = (a == b && b == c) ? d : (a == b && b == d) ? c : 
                 (a == c && c == d) ? b : a;
             answer = (10 * p + q) * (10 * p + q);
-        } 
-        // 두 쌍의 숫자가 같은 경우
-        else if ((a == b && c == d) || 
+        } else if ((a == b && c == d) || 
                  (a == c && b == d) || 
-                 (a == d && b == c)) {
+                 (a == d && b == c)) { // 두 쌍의 숫자가 같은 경우
             p = (a == b && c == d) ? a : (a == c && b == d) ? a : a;
             q = (a == b && c == d) ? c : (a == c && b == d) ? b : b;
             answer = (p + q) * Math.abs(p - q);
