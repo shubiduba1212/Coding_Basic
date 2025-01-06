@@ -21,14 +21,12 @@ class Solution {
             p = (a == b && c == d) ? a : (a == c && b == d) ? a : a;
             q = (a == b && c == d) ? c : (a == c && b == d) ? b : b;
             answer = (p + q) * Math.abs(p - q);
-        } 
-        // 두 숫자가 같고 나머지 두 숫자가 다른 경우
-        else if ((a == b && c != d) || 
+        } else if ((a == b && c != d) || 
                  (a == c && b != d) || 
                  (a == d && b != c) || 
                  (b == c && a != d) || 
                  (b == d && a != c) || 
-                 (c == d && a != b)) {
+                 (c == d && a != b)) { // 두 숫자가 같고 나머지 두 숫자가 다른 경우
             if (a == b) {
                 q = c;
                 int r = d;
