@@ -6,8 +6,6 @@ class Solution {
         
         for(int i = 0; i < e - s + 1; i++){            
             arr[s + i] = tempArr[e - i];
-            // System.out.println("arr["+ s + i +"] : "+arr[s + i]);
-            // System.out.println(String.valueOf(arr));
         }
     
         return answer = String.valueOf(arr);
