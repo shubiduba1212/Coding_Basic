@@ -3,13 +3,10 @@ class Solution {
         int answer = 0;
         int p = 0, q = 0;
         int[] dice = {a, b, c, d};
-        
-        // 네 숫자가 모두 같을 경우
-        if (a == b && b == c && c == d) {
+               
+        if (a == b && b == c && c == d) { // 네 숫자가 모두 같을 경우
             answer = 1111 * a;
-        } 
-        // 세 숫자가 같고 하나가 다른 경우
-        else if ((a == b && b == c) || 
+        } else if ((a == b && b == c) || 
                  (a == b && b == d) || 
                  (a == c && c == d) || 
                  (b == c && c == d)) {
