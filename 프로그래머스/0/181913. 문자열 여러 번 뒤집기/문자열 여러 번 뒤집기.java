@@ -4,7 +4,7 @@ class Solution {
         char[] arr = my_string.toCharArray();
         
         for(int i = 0; i < queries.length; i++){
-            int s = queries[i][0];// 2, 0, 5, 6
+            int s = queries[i][0];
             int e = queries[i][1]; 
             char[] tempArr = new char[arr.length];
             
