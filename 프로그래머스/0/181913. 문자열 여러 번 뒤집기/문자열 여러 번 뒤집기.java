@@ -11,7 +11,6 @@ class Solution {
             for(int j = 0; j < arr.length; j++){  
                 tempArr[j] = arr[j];
             }
-            // System.out.println("tempArr : "+ String.valueOf(tempArr));
             
             for(int j = 0; j < e - s + 1; j++){  
                 // System.out.println("tempArr["+ (e - j) +"] : "+tempArr[e - j]);
