@@ -5,7 +5,7 @@ class Solution {
         
         for(int i = 0; i < queries.length; i++){
             int s = queries[i][0];// 2, 0, 5, 6
-            int e = queries[i][1];// 3, 7, 9, 10  
+            int e = queries[i][1]; 
             char[] tempArr = new char[arr.length];
             
             for(int j = 0; j < arr.length; j++){  
