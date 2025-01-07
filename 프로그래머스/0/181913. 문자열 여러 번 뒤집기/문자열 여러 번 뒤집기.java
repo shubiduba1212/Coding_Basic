@@ -2,7 +2,6 @@ class Solution {
     public String solution(String my_string, int[][] queries) {
         String answer = "";
         char[] arr = my_string.toCharArray();
-        // char[] copyArr = my_string.toCharArray();
         
         for(int i = 0; i < queries.length; i++){
             int s = queries[i][0];// 2, 0, 5, 6
