@@ -14,7 +14,6 @@ class Solution {
             
             for(int j = 0; j < e - s + 1; j++){  
                 arr[s + j] = tempArr[e - j];
-                // System.out.println("arr : "+ String.valueOf(arr));
             }
             
             // System.out.println("after - arr : "+ String.valueOf(arr));
