@@ -24,7 +24,6 @@ class Solution {
                     empty++;
                 }                 
             }
-            //System.out.println(empty);
             answer = new String[tempArr.length - empty];
             
             for(int i = 0; i < tempArr.length; i++){
