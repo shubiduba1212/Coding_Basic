@@ -10,7 +10,6 @@ class Solution {
             }else{
                 count = 1;
             }
-            //System.out.println(String.valueOf(arr));
         }
         
         if(count == 0){
