@@ -26,7 +26,6 @@ class Solution {
             for(int i = startIdx; i < endIdx + 1; i++){
                 answer[idx] = arr[i];
                 idx++;
-                // System.out.println(arr[i]);
             }
         }
         
