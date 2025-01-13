@@ -7,7 +7,6 @@ class Solution {
         for(int i = 0; i < arr.length; i++){
             int temp = 0;
             while(true){
-                // (arr[i] > 50 && arr[i] % 2 == 1) || (arr[i] < 50 && arr[i] % 2 == 0)
                 if(arr[i] >= 50 && arr[i] % 2 == 0){ // 50보다 크거나 같은 짝수
                     arr[i] = arr[i] / 2;
                     // System.out.println("arr["+i+"] : "+ arr[i]);
