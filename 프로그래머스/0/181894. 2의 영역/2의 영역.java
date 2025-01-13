@@ -10,7 +10,6 @@ class Solution {
                 // System.out.println("startIdx : " + i);
             }else if(arr[i] == 2 && startIdx != 100001){
                 endIdx = i;
-                // System.out.println("endIdx : " + i);
             }
         }
         
