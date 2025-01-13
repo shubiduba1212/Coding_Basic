@@ -7,7 +7,6 @@ class Solution {
         for(int i = 0; i < arr.length; i++){
             if(arr[i] == 2 && startIdx == 100001){
                 startIdx = i;
-                // System.out.println("startIdx : " + i);
             }else if(arr[i] == 2 && startIdx != 100001){
                 endIdx = i;
             }
