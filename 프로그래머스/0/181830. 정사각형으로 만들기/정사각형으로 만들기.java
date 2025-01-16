@@ -15,7 +15,6 @@ class Solution {
                 }                
             }
             answer = tempArr;
-            //System.out.println(arr[i].length);
             
         }else if(arr[0].length < arr.length){
             int length = arr.length;
