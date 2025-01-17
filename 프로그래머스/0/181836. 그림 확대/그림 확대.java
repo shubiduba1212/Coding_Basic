@@ -5,7 +5,6 @@ class Solution {
         String[] tempArr = new String[length];
         
         for(int i = 0; i < picture.length; i++){
-            //System.out.println("["+i+"] 째 요소 : " + picture[i]);
             char[] picCharArr = picture[i].toCharArray();
             char[] newCharArr = new char[picCharArr.length * k];
             for(int j = 0; j < picCharArr.length; j++){
