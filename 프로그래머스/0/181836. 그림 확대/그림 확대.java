@@ -8,7 +8,6 @@ class Solution {
             char[] picCharArr = picture[i].toCharArray();
             char[] newCharArr = new char[picCharArr.length * k];
             for(int j = 0; j < picCharArr.length; j++){
-                //System.out.println("picCharArr["+j+"] : " + picCharArr[j]);
                 for(int l = j * k; l < ((j * k) + k); l++){
                     newCharArr[l] = picCharArr[j];                    
                     //System.out.println(newCharArr[l]);
