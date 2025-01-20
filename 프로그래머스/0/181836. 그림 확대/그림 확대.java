@@ -13,7 +13,6 @@ class Solution {
                     //System.out.println(newCharArr[l]);
                 }
             }
-            //System.out.println("newCharArr : " + String.valueOf(newCharArr));
             picture[i] = String.valueOf(newCharArr);
             //System.out.println("picture["+i+"]" + picture[i]);
         }
