@@ -7,9 +7,6 @@ class Solution {
         for(int i = 0; i < rank.length; i++){            
             if(attendance[i] == true){
                 int[][] tempArr = new int[idx + 1][2];
-                
-                // System.out.println("tempArr["+idx+"]["+0+"] : " + tempArr[idx][0]);
-                // System.out.println("tempArr["+idx+"]["+1+"] : " + tempArr[idx][1]);
                 for(int j = 0; j < tempArr.length; j++){
                     if(j >= idx){
                         tempArr[idx][0] = i;
