@@ -20,7 +20,6 @@ class Solution {
                 }
             } 
             count = temp >= count ? temp : count;
-            // System.out.println("count : "+ count);
         }
         
         return answer = count;
