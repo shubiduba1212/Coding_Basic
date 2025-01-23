@@ -5,7 +5,6 @@ class Solution {
         int[] stk = {};
         
         while(i < arr.length){
-            //System.out.println(i);
             if(stk.length == 0){
                 int[] tempArr = new int[1];
                 tempArr[0] = arr[i];
@@ -28,8 +27,6 @@ class Solution {
                         }else{
                             tempArr[j] = stk[j];
                         }
-                        
-                        //System.out.println(tempArr[j]);
                     }
                     stk = tempArr;
                 }
