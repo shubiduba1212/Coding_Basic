@@ -9,7 +9,6 @@ class Solution {
                 int[] tempArr = new int[1];
                 tempArr[0] = arr[i];
                 stk = tempArr;
-                //System.out.println("stk[0] : " + stk[0]);
             }else{
                 //System.out.println("stk.length : " + stk.length);
                 if(stk[stk.length - 1] == arr[i]){
