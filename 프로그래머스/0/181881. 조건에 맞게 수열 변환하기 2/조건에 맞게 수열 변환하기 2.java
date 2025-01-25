@@ -9,7 +9,6 @@ class Solution {
             while(true){
                 if(arr[i] >= 50 && arr[i] % 2 == 0){ // 50보다 크거나 같은 짝수
                     arr[i] = arr[i] / 2;
-                    // System.out.println("arr["+i+"] : "+ arr[i]);
                     temp++;
                 }else if(arr[i] < 50 && arr[i] % 2 == 1){ // 50보다 작은 홀수
                     arr[i] = (arr[i] * 2) + 1;
