@@ -4,7 +4,6 @@ class Solution {
         int[] tempArr = new int[strArr.length];        
         for(int i = 0; i < strArr.length; i++){
             tempArr[i] = strArr[i].length();  
-            //System.out.println(tempArr[i]);
         }
         int temp = 0;
         
