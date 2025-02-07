@@ -1,7 +1,6 @@
 def solution(polynomial):
     answer = ''
     arr = polynomial.split(" + ")
-    print(arr)
     temp = 0 
     num = 0
     for i in arr :
@@ -14,6 +13,7 @@ def solution(polynomial):
                 temp += 1
         else :
             num += int(i)
+            
     if temp == 0 :
         answer = str(num)
     elif num == 0 :
@@ -28,4 +28,5 @@ def solution(polynomial):
             answer = "x + "+ str(num)
     else :
         answer = str(temp)+"x"+" + "+ str(num)
+        
     return answer
