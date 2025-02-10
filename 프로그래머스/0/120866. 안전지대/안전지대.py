@@ -1,7 +1,6 @@
 def solution(board):
     answer = 0
     position = set()
-    danger = 0
     for i in range(len(board)) :
         for j in range(len(board)) :                
             if board[i][j] == 1 :
