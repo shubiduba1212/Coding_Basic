@@ -1,7 +1,6 @@
 def solution(numlist, n):
     answer = []
     gap = []
-    # numlist.remove(n)
     numlist.sort()
     for i in numlist :
         temp = abs(n - i)
