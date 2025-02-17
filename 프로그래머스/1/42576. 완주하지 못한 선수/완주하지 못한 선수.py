@@ -9,7 +9,6 @@ def solution(participant, completion):
         if partDict[i] == 0 :
             partDict.pop(i)
     
-    for i in partDict :
-        answer = i
+    answer = next(iter(partDict))
                 
     return answer
