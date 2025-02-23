@@ -16,7 +16,6 @@ def solution(lines):
     
     for start, end in position:
         if merged_intervals and merged_intervals[-1][1] >= start:  
-            
             merged_intervals[-1][1] = max(merged_intervals[-1][1], end)
         else:
             merged_intervals.append([start, end])
