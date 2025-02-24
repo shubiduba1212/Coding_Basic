@@ -10,9 +10,8 @@ def solution(progresses, speeds):
     length = len(temp)
     count = 0
     date = temp[0]
-    for i in range(length) :        
-        # 앞 기능의 작업 완료일보다 짧거나 같은 경우
-        if temp[i] <= date :
+    for i in range(length) :                
+        if temp[i] <= date : # 앞 기능의 작업 완료일보다 짧거나 같은 경우
             count += 1
         else : 
             answer.append(count)
