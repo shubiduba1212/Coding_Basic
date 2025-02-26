@@ -12,5 +12,14 @@ def solution(sizes):
     second.sort(reverse=True)
     
     answer = first[0] * second[0]
+
+    # max_w = 0 
+    # max_h = 0
+
+    # for w, h in sizes:
+    #     max_w = max(max_w, max(w, h))
+    #     max_h = max(max_h, min(w, h))
+    
+    # answer = max_w * max_h
     
     return answer
