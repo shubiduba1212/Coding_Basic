@@ -8,7 +8,6 @@ def solution(my_string):
                 check = True
                 break
             elif my_string[i : i+1] == " ":
-                #print(my_string[i : i+1])
                 break
             else :
                 #print(my_string[i : i+1])
