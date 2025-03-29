@@ -8,7 +8,6 @@ def solution(genres, plays):
         temp[genres[i]]["list"] = temp[genres[i]].get("list", {})
         temp[genres[i]]["list"][i] = plays[i]
             
-    # print(temp)
     sorted_list = sorted(temp.items(), key=lambda item: item[1]["total"], reverse= True)
     for i in sorted_list :
         sorted_plays = sorted(i[1]["list"].items(), key=lambda item:item[1], reverse=True)
