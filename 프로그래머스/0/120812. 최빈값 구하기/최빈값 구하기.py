@@ -19,7 +19,6 @@ def solution(array):
                 
             elif array[i] != array[i-1] and tempCount == count :
                 isMore = True
-                #print(f"{array[i]}의 빈값은 : {tempCount}")
         
     if isMore == False :
         return answer
