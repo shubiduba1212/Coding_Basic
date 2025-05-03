@@ -5,7 +5,7 @@ def solution(arr):
         if arr[i] != temp :
             answer.append(arr[i])
             temp = arr[i]
-    # print('Hello Python')
+            
     # for i in arr :        
     #     if not answer or answer[-1] != i :
     #         answer.append(i)
