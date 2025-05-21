@@ -4,8 +4,5 @@ function solution(numbers) {
       answer += i;
     }
     
-    // console.log(answer);
-    // console.log(numbers.length);
-    
     return answer / numbers.length;
 }
