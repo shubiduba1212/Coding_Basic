@@ -1,10 +1,10 @@
 # [level 0] 팩토리얼 - 120848 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120848) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120848?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.00 ms
+메모리: 33.5 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 03일 21:00:20
+2025년 07월 14일 19:22:41
 
 ### 문제 설명
 
