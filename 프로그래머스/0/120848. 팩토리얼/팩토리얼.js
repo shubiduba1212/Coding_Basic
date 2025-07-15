@@ -1,5 +1,5 @@
 function solution(n) {
-        var answer = 1;
+    var answer = 1;
     let facNum = 1;
     while (facNum < n) {        
         answer += 1;
@@ -8,6 +8,12 @@ function solution(n) {
     
     if(facNum != n){
         answer -= 1;
-    }
+    }        
     return answer;
+
+        // while (facNum <= n) {        
+        //         answer++;
+        //         facNum *= answer;
+        //     }
+        // return answer - 1;
 }
